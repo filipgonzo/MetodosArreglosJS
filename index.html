@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Latam - TodoList</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/42cd22d5cf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+        <hr>
+        <label for="nombreTarea">Nueva Tarea</label><br>
+        <input type="text" name="nombreTarea" maxlength="60" size="50" id="nombreTarea" class="nombretarea"  value="">
+        <button class="btn btn-success" id="agregar" >agregar</button>
+        <div class="row" id="container">
+            <div class="col-md-2 ">
+                <p>Total: <strong><span id="totalTareas">0</span></strong></p>
+                <p>Realizadas:<strong><span id="tareasRealizadas">0</span></strong></p>
+            </div>
+            <div class="col-md-10 d-flex justify-content-around" class="listatarea"  >
+                <table id="listaTareas">
+                    <div class="titulo">
+                        <td> <strong>ID</strong></td>  
+                        <td  class="tarea"><strong>Tarea</strong></td>
+                         
+                    </div>    
+                </table>            
+
+            </div>
+        </div>
+    </div>
+
+    
+<script src="assets/js/index.js"> </script>
+</body>
+</html>

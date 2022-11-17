@@ -1,0 +1,39 @@
+.container{
+background-color:rgb(219, 218, 218);
+margin-top: 10%;
+}
+
+.nombretarea{
+
+    width: 90%;
+
+}
+
+.row{
+    padding-top: 3vh;
+    
+    width: 100%;
+    
+}
+
+
+.tarea{
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+
+.titulo, tr{
+    text-align: center;
+    margin-left: 3vw;
+}
+
+
+.check{
+   margin-right: 2vw;   
+}
+
+.fa-solid, .fas{
+color: red;
+
+}
